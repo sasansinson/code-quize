@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Quize</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class= "main">Code Quize</div>
+      <button class="start-button">Start</button>
+      <div class="quiz" style="display: none">
+        <div class="question"></div>
+            <button class="choice" id="A"></button>
+            <button class="choice" id="B"></button>
+            <button class="choice" id="C"></button>
+            <button class="choice" id="D"></button>
+        </div>
+      <div class="resultContainer" style="display: none"></div>
+      
+      <form id="initial" method="POST" style="display: none">
+        <label for="initial-text">Add your initial: </label>
+        <input type="text" placeholder="your initial" name="initial-text" id="initial-text" />
+        <button id="submit">Submit</button>
+      </form>
+      <ul id="initial-list" style="display: none;"></ul>
+      <button id="view">View Highscores</button>
+      <div class= "timer">
+        <div><h1>Time: <span class="timer-count">10</span></h1></div>
+      </div>
+
+    </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>

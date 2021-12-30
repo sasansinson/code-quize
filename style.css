@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    
+  }
+  
+
+button {
+    background-color: aqua;
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 1.5em;
+    letter-spacing: 0.21px;
+    text-align: center;
+    margin-top: 0.6em;
+    
+
+  }
+  
+  .main{
+    font-family: Arial;
+    padding: 40px;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 50px;
+  }
+  #view{
+    font-family: Arial;
+    background-color: aqua;
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 1.5em;
+    letter-spacing: 0.21px;
+    max-width: 255px;
+    text-align: center;
+    margin-top: 0.6em;
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .quiz {
+    font-family: Arial;
+    padding: 40px;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 30px;
+}
+.choice{
+    font-family: Arial;
+    background-color: aqua;
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.21px;
+    max-width: 255px;
+    text-align: center;
+    margin-top: 0.6em;
+}
+.question{
+    font-family: Arial;
+    padding: 40px;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 40px;
+  }
+
+  .resultContainer{
+    font-family: Arial;
+    padding: 40px;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 40px;
+  }
+  form{
+    font-family: Arial;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 35px;  
+  }
+  #initial-text{
+        font-family: Arial;
+        text-align: center;
+        border-bottom:30px #879274;
+        font-size: 25px;  
+      
+  }
+  #submit{
+    font-family: Arial;
+    background-color: aqua;
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 0.7em;
+    letter-spacing: 0.21px;
+    max-width: 255px;
+    text-align: center;
+    margin-top: 0.6em;
+}
+#initial-list{
+    font-family: Arial;
+    text-align: center;
+    border-bottom:30px #879274;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+  }
+ 
+  
+  .timer {
+    height: 240px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    right: 2px;
+    top: -10px;
+  }
+  
+  
